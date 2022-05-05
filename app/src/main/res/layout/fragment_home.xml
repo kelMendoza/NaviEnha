@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    app:layoutDescription="@xml/fragment_home_scene"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="260dp"
+        android:layout_height="188dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133"
+        app:srcCompat="@drawable/enlogo" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIMENSION DILEMMA"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="337dp"
+        android:layout_height="255dp"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Dimension: Dilemma es el primer álbum de estudio del grupo surcoreano Enhypen. Se publicó el 12 de octubre de 2021, a través de Belift Lab. El 10 de enero de 2022 se lanzó una reedición titulada Dimension: Answer."
+                android:textSize="20dp"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="-14dp"
+                tools:layout_editor_absoluteY="207dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="60dp"
+        android:layout_height="69dp"
+        android:src="@drawable/estrella"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="713dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="52dp"
+        android:layout_height="44dp"
+        android:src="@drawable/estrella"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="677dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="60dp"
+        android:layout_height="69dp"
+        android:src="@drawable/estrella"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="721dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

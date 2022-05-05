@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="darkgray">#E9373535</color>
+    <color name="granate">#571E1E</color>
+    <color name="verde">#296D50</color>
+    <color name="azul">#0A1B39</color>
+    <color name="blanco">#8E4B4B</color>
+    <color name="colorText">#2B2B2B</color>
+
+    <color name="gray">#7C7C7C</color>
+    <color name="graySelected">#6C6C6C</color>
+
+    <color name="orange">#FF9800</color>
+    <color name="orangeSelected">#F85145</color>
+    <color name="green">#1ACA22</color>
+
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="colorTextoNegro">#212121</color>
+    <color name="colorTextoBlanco">#FFFFFF</color>
+    <color name="colorTextoVerde">#388E3C</color>
+    <color name="colorTextoTransparente">#8D6FA571</color>
+
+    <color name="colorTextoTransparente2">#A4A1A56F</color>
+    <color name="colorTextoTransparente3">#9A6F9AA5</color>
+
+
+    <color name="celestito">#489E8A</color>
+</resources>

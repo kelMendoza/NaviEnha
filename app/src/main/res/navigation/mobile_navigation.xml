@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.navienha.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/calculadora2"
+        android:name="com.example.navienha.Calculadora"
+        android:label="fragment_calculadora"
+        tools:layout="@layout/fragment_calculadora" />
+    <fragment
+        android:id="@+id/direccionarApk2"
+        android:name="com.example.navienha.DireccionarApk"
+        android:label="fragment_direccionar_apk"
+        tools:layout="@layout/fragment_direccionar_apk" />
+    <fragment
+        android:id="@+id/maravilla"
+        android:name="com.example.navienha.Maravilla"
+        android:label="fragment_maravilla"
+        tools:layout="@layout/fragment_maravilla" />
+    <fragment
+        android:id="@+id/sitioWeb2"
+        android:name="com.example.navienha.SitioWeb"
+        android:label="fragment_sitio_web"
+        tools:layout="@layout/fragment_sitio_web" />
+    <fragment
+        android:id="@+id/sonido2"
+        android:name="com.example.navienha.Sonido"
+        android:label="fragment_sonido"
+        tools:layout="@layout/fragment_sonido" />
+    <fragment
+        android:id="@+id/maps"
+        android:name="com.example.navienha.Maps"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
+</navigation>

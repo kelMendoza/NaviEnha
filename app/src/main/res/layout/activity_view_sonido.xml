@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    app:layoutDescription="@xml/activity_view_sonido_scene"
+    tools:context=".ViewSonido">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="251dp"
+            android:layout_height="44dp"
+            android:layout_marginHorizontal="50dp"
+            android:background="@drawable/playlist" />
+
+        <ImageView
+            android:id="@+id/gato"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_margin="20dp"
+            android:onClick="MensajeGato"
+            android:rotationX="17"
+            android:rotationY="17"
+            android:text='GATO'
+            app:srcCompat="@drawable/gato"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/perro"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_margin="20dp"
+            android:onClick="MensajePerro"
+            android:rotation="4"
+            android:rotationX="-17"
+            android:text='PERRO'
+            app:srcCompat="@drawable/perro"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/conejo"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_margin="20dp"
+            android:onClick="MensajeConejo"
+            android:text='CONEJO'
+            app:srcCompat="@drawable/conejo"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

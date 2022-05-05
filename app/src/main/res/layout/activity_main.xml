@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoinicio"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="50dp">
+
+        <ImageView
+            android:id="@+id/bienvenida"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginVertical="25dp"
+            android:background="@drawable/bienvenida"/>
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="188dp"
+            android:layout_height="140dp"
+            android:layout_marginVertical="25dp"
+            android:layout_marginHorizontal="60dp"
+            app:srcCompat="@drawable/persona" />
+
+        <ImageView
+            android:id="@+id/curso"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginVertical="35dp"
+            android:background="@drawable/curso" />
+
+        <ImageView
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginVertical="35dp"
+            android:background="@drawable/nombre" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

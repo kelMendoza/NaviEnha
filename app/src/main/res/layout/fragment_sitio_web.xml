@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fondo2"
+    tools:context=".SitioWeb">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorTextoTransparente3"
+        android:layout_margin="30dp">
+
+        <ImageView
+            android:layout_width="291dp"
+            android:layout_height="39dp"
+            android:layout_margin="20dp"
+            app:srcCompat="@drawable/sitiowebtitulo" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="263dp"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Las siete maravillas del mundo conocido por los griegos helenísticos fueron seleccionadas por el pintor neerlandés Maerten van Heemskrerck en el siglo XVI en una serie de siete cuadros, que muestran las obras arquitectónicas y escultóricas que marcaron un antes y un después en la historia.1​ Previamente autores como Filón de Bizancio, Antípatro de Sidón, Gregorio Nacianceno o Beda el Venerable, entre otros, habían confeccionado sus respectivos listados. Sólo una de ellas se mantiene actualmente en pie. Mientras la existencia de otras es todavía un misterio para investigadores y expertos en la materia. La pregunta más frecuente es: ¿por qué escogieron solo siete puntos de referencia? La cultura helenística consideraba tal cifra como el número perfecto." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="147dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/antiguas"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buscar"
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/black"
+                android:onClick="Navegar"
+                android:text="BUSCAR MÁS INFORMACIÓN"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="49dp"
+                android:layout_height="45dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_baseline_search_24" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
